@@ -48,3 +48,5 @@ total = clearance_applied.reduce(0){ |acc, (key, value)| acc +=  value[:price] *
 if total > 100 
   return total * 0.9 
 end
+total
+end
