@@ -41,5 +41,5 @@ def apply_clearance(cart)
 end
 
 def checkout(cart, coupons)
-  hashed_cart = (consolidate_cart, coupon)
+  hashed_cart = consolidate_cart(array)
 end
